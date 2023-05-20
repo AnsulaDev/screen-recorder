@@ -64,7 +64,9 @@ function Home() {
   }
   return (
     <div>
-      <img src="videocam.png" alt="videocam"/>
+      <img 
+        src="videocam.png" 
+        alt="videocam"/>
       <h1 className='elegantshadow'>Screen  Recorder</h1>
       
       <video ref={videoRef} className="video" width="600px" src={link && link} controls></video><br />
